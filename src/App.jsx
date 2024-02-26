@@ -1,12 +1,13 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Routes from './Routes'; // Define your routes in a separate file
+import AppRoutes from './Routes'; // Import the AppRoutes component correctly
 
 function App() {
   return (
     <Router>
       <div>
-        <Routes />
+        <AppRoutes /> {/* Use AppRoutes here */}
       </div>
     </Router>
   );

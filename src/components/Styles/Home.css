@@ -1,0 +1,21 @@
+/* Home.css */
+
+/* Container styles */
+.container {
+  text-align: center; /* Center align content */
+  margin-top: 50px; /* Add margin at the top */
+}
+
+/* Heading styles */
+h1 {
+  font-size: 32px; /* Increase font size */
+  color: #2c3e50; /* Change text color */
+  margin-bottom: 20px; /* Add more margin at the bottom */
+}
+
+/* Paragraph styles */
+p {
+  font-size: 18px; /* Increase font size */
+  color: #555; /* Change text color */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}

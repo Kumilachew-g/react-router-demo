@@ -1,10 +1,9 @@
-/* NavBar.css */
-
 /* Navbar */
 nav {
-  background-color: #34495e; /* Change background color */
+  background-color: #34495e;
   color: #fff;
-  padding: 10px 0; /* Add padding */
+  padding: 10px 0;
+  text-align: right; /* Align the content to the right */
 }
 
 /* Navbar links */
@@ -15,20 +14,21 @@ ul {
 }
 
 li {
-  display: inline-block; /* Change display to inline-block for proper alignment */
-  margin-right: 15px; /* Increase margin-right for spacing */
+  display: inline-block;
+  margin-left: 15px; /* Change margin-left to create space between links */
 }
 
 a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold; /* Add font weight */
-  padding: 8px 12px; /* Add padding */
-  border-radius: 5px; /* Add border-radius for rounded corners */
-  transition: background-color 0.3s, color 0.3s; /* Add transition for smoother hover effect */
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px; /* Update font size */
 }
 
 a:hover {
-  background-color: #2c3e50; /* Change background color on hover */
-  color: #ff0; /* Change text color on hover */
+  background-color: #2c3e50;
+  color: #ff0;
 }
